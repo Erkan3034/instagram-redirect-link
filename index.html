@@ -2,7 +2,6 @@
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="1; url=https://youtube.com/@codenthia" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Codenthia YouTube Yönlendirme</title>
     <style>
@@ -14,7 +13,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         height: 100vh;
+        text-align: center;
       }
 
       .alert {
@@ -23,24 +24,33 @@
         border: 2px solid #10b981;
         padding: 20px 30px;
         border-radius: 10px;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        text-align: center;
         max-width: 90%;
+        margin: 20px;
+      }
+
+      .alert small {
+        font-size: 0.9rem;
+        color: #047857;
       }
     </style>
+
+    <script>
+      // 5 saniye sonra yönlendirme
+      setTimeout(function () {
+        window.location.href = "https://youtube.com/@codenthia";
+      }, 5000);
+    </script>
   </head>
   <body>
     <div class="alert">
-      ✅ Başarıyla yönlendiriliyorsunuz... <br />
-      Lütfen bekleyin.
-      <br> <br>
-      <i>Erkan TURGUT</i>
+      ✅ Başarıyla yönlendiriliyorsunuz... <br /><br />
+      Eğer Instagram içindeysen: <br />
+      Sağ üst köşedeki <b>⋮</b> simgesine tıkla → <b>"YouTube’da Aç"</b> seçeneğine dokun!<br /><br />
+      <small>5 saniye içinde otomatik yönlendirme başlayacak.</small>
     </div>
+
+    <i style="color: #065f46;">Erkan TURGUT</i>
   </body>
-
-  <!-- İnstagram tarayıcından atlayıp direk veridğiniz urlyi taraycida açabilirsiniz
-
-  Developed By ERKAN TURGUT
-  -->
 </html>
