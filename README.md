@@ -5,7 +5,7 @@ This is the redirecter link for instagram.
 
 # Codenthia YouTube Yönlendirme
 
-Bu HTML dosyası, kullanıcıları Codenthia YouTube kanalına yönlendirmek için tasarlanmıştır.
+Bu HTML dosyası, kullanıcıları Codenthia YouTube kanalına yönlendirmek için tasarlanmıştır. İnstagram varsalıan olarak kendi taraycısında bağlantıları açıyor, bunun önne geçmek için bu mini çözüm geliştirdim.
 
 ## Nasıl Kullanılır
 
